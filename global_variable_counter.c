@@ -11,7 +11,7 @@ int main(){
   scanf("%d",&n);
   
   for (int i=0 ;i < n; i++){
-    increamentcounter();
+    increamentcounter(); //that is called storing a function LOCALLY.
   }
   
   printf("Final counter: %d",counter);
