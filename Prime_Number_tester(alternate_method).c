@@ -1,3 +1,10 @@
+/* 
+    ALGORITHM(alternate method): 
+    > for(int i=2;i<=(num/2);i+=1)
+    > using break; so that we dont have to count every factors , it terminates after only 1 .
+    > if factors = 1 , num is non-prime(as it has factors other than 1 and itself).
+*/
+
 #include <stdio.h>
 int main(){
     int num,factors=0;
